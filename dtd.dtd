@@ -1,0 +1,11 @@
+<!ELEMENT order (customer, order-details)>
+<!ELEMENT customer (name, email, phone, address)>
+<!ELEMENT order-details (id, product, notes)>
+<!ELEMENT product (name, quantity, price)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
